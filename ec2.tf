@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
     instance_type = var.instance_type
     
     monitoring = true //this is enabling  monitoring
-    ebs_optismized = true //
+    ebs_optimized = true //
     root_block_device {
         encrypted  = true //
     }
